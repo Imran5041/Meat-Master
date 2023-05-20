@@ -1,0 +1,32 @@
+@import "/src/Utils/style/mediaQuery";
+.Today{
+    h4{
+        color: gray;
+        font-size: 15px;
+        margin-left: 12px;
+       }
+        h3{
+            margin-top: -50px;
+            margin-left: 90px;
+            font-size: 15px;
+            
+        }
+        &__background{
+            position: relative;
+            img{
+                width: 100%;
+                @include for-size(phone-only){
+                width: 1250px;
+                      
+                     } 
+            }
+            h2{
+                position: absolute;
+                top: 50px;
+                left: 550px;
+                color: #fff;
+                font-size: 65px;
+                font-weight: 700;
+            }
+        }
+}

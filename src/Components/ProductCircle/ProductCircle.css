@@ -1,0 +1,64 @@
+.ProductCircle {
+  display: flex;
+  justify-content: center;
+}
+.ProductCircle__picture1 {
+  background-color: #F4C6C6;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 5px;
+}
+.ProductCircle__picture1 img {
+  width: 170px;
+  height: 170px;
+}
+.ProductCircle__picture2 {
+  background-color: #FCDB88;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+.ProductCircle__picture2 img {
+  width: 150px;
+  height: 150px;
+}
+.ProductCircle__picture3 {
+  background-color: #82C052;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+.ProductCircle__picture3 img {
+  width: 170px;
+  height: 170px;
+}
+.ProductCircle__picture4 {
+  background-color: #8FF9F2;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+.ProductCircle__picture4 img {
+  width: 180px;
+  height: 180px;
+}
+.ProductCircle__picture5 {
+  background-color: #82A7ED;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+.ProductCircle__picture5 img {
+  width: 160px;
+  height: 160px;
+}
+.ProductCircle__picture6 {
+  background-color: #E582F5;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+.ProductCircle__picture6 img {
+  width: 180px;
+  height: 180px;
+}/*# sourceMappingURL=ProductCircle.css.map */

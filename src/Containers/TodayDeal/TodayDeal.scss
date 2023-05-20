@@ -1,0 +1,173 @@
+@import "/src/Utils/style/mediaQuery";
+.TodayDeal{
+    margin-left: 50px;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    &__card{
+        display: flex;
+        width: 100%;
+        gap: 4rem;
+        overflow-x: hidden;
+        @include for-size(phone-only){
+            display: none;
+             }
+     
+    }
+  
+        h2{
+
+            text-align: center;
+            margin-top: 50px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 500;
+            @include for-size(phone-only){
+                font-size: 35px;
+                font-weight: 700;
+                margin-left: 600px;
+                display: none;
+            }
+        }
+        &__background 
+        
+        img{
+           width: 100%;
+            position: relative;
+        
+
+        }
+   
+&__rectangle{
+    position: relative;
+   
+    img{
+        position: absolute;
+        top: 20px;
+        height: 88%;
+    }
+    h2{
+        top: 80px;
+        position: absolute;
+        left: 565px;
+        font-size: 30px;
+        font-weight: 700;
+        color: #edeeef;
+        @include for-size(phone-only){
+        font-size: 15px;
+        margin-top: 30px;
+        display: none;
+               
+                  
+                
+               }
+    }
+    p{
+        position: absolute;
+        top: 180px;
+        left: 564px;
+        color: #fff;
+        font-size: 26px;
+        font-weight: 400;
+        @include for-size(phone-only){
+            font-size: 45px;
+            margin-top: 10px;
+     
+                   
+                      
+                    
+                   }
+    }
+    button{
+        top: 230px;
+        left: 570px;
+    border: none;
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        @include for-size(phone-only){
+            
+            display: none;
+                   
+                      
+                    
+                   }
+    }
+ 
+
+}
+&__hen{
+    img{
+        @include for-size(phone-only){
+            width: 250px;
+            height: 250px;
+            margin-top: 90px;
+        
+           
+              
+            
+           }
+    }
+}
+&__dabba1{
+    img{
+        position: absolute;
+        top: 120px;
+        right: 20px;
+        @include for-size(phone-only){
+     display: none;
+        
+           
+         
+        }
+    }
+}
+&__logo{
+    
+    img{
+        left: 380px;
+        height: 80%;
+        top: 110px;
+        @include for-size(phone-only){
+            height: 250px;
+            margin-left: -110px;
+               
+                  
+                
+               }
+    }
+  
+}
+&__title{
+    position: relative;
+    h2{
+        position: absolute
+        ;
+        color: yellow;
+        top: 20px;
+    }
+}
+&__pic{
+    img{
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+        position: relative;
+        @include for-size(phone-only){
+         width: 1150px;
+        }
+    }
+}
+
+        &__icons{
+            text-align: center;
+            @include for-size(phone-only){
+                display: none;
+                 }
+            
+        }
+    
+        
+    
+}

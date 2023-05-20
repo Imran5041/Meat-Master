@@ -1,0 +1,73 @@
+@import "/src/Utils/style/variables";
+.ProductCard4{
+
+    display: flex;
+    
+    
+ 
+     &__imageBox{
+       width: 100%;
+       height: 30vh;
+
+       
+       
+     }
+
+  
+ 
+     &__title{
+         display: block;
+         
+         h3{
+            font-size: 18px;
+            margin-left: 10px;
+            margin-top: -20px;
+        
+            span{
+    
+                margin-left: 65px;
+            }
+            
+           
+             
+         }
+       
+         p{
+             font-size: 27px;
+           margin-left: 70px;
+             font-weight: 400;
+         }
+         
+     
+     }
+  
+     &__fiveStar{
+         color: $browncolor;
+         margin-right: -140px;
+         
+         
+         span{
+             color: $blackcolor;
+             font-size: 15px;
+             font-weight: 400;
+         }
+     }
+     &__btn{
+        margin-left: 32px;
+         button{
+             border: none;
+             background: $pinkcolor;
+             font-size: 16px;
+             padding: 5px;
+            border-radius: 10px;
+             font-weight: 700;
+            margin-top: 30px;
+            margin-left: 10px;
+             color: $browncolor;
+         }
+     }
+  
+ }
+ .blankStar1{
+     color: $blackcolor;
+ }

@@ -1,0 +1,27 @@
+@import "/src/Utils/style/mediaQuery";
+@import "/src/Utils/style/variables";
+.Breakfast{
+    text-align: center;
+    a{
+        color: $blackcolor;
+        text-decoration: none;
+    }
+    h1{
+        text-align: center;
+        columns: $blackcolor;
+        margin-top: 50px;
+        @include for-size(phone-only){
+            font-size: 35px;
+            font-weight: 700;
+            margin-left: 600px;
+        }
+    }
+    &__cards{
+        display: flex;
+    }
+    
+    &__icon{
+        text-align: center;
+    }
+
+}

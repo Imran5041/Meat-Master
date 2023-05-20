@@ -1,0 +1,24 @@
+@import "/src/Utils/style/mediaQuery";
+@import "/src/Utils/style/variables";
+.ProductCircle2{
+    @include for-size(phone-only){
+        margin-left: 1190px;
+            
+           } 
+        background-color: $orangecolor;
+        border-radius: 50%;
+        padding: 25px;
+            width: 180px;
+            height: 180px;
+            margin: 10px;
+        
+            img{
+                width: 190px;
+                margin-top: 30px;
+                @include for-size(phone-only){
+                    margin-left: 190px;
+                        
+                       } 
+            }
+    
+}

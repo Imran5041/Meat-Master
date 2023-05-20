@@ -1,0 +1,118 @@
+@import "/src/Utils/style/mediaQuery";
+@import "/src/Utils/style/variables";
+.arrow{
+    color: $graycolor;
+    margin-left: 60px;
+    margin-top: -60px;
+}
+.Contact{
+   h4{
+    color: $graycolor;
+    font-size: 15px;
+    margin-left: 12px;
+   }
+    h3{
+        margin-top: -50px;
+        margin-left: 90px;
+        font-size: 15px;
+        
+    }
+    &__rectangle{
+        background-color: $browncolor;
+        position: relative;
+        @include for-size(phone-only){
+            height: 250px;
+            width: 1250px;
+              }
+              img{
+                @include for-size(phone-only){
+                    width: 250px;
+                    height: 230px;
+                    margin-left: 20px;
+                      }
+              }
+        button{
+            position: absolute;
+            top: 410px;
+            right: 150px;
+            width: 495px;
+            color: $blackcolor;
+            font-style: bold;
+            @include for-size(phone-only){
+            display: none;
+                    }
+        }
+    }
+    &__title{
+        top: 150px;
+        right: 460px;
+        border: 2px solid $whitwecolor;
+        @include for-size(phone-only){
+            margin-top: -90px;
+                }
+        border: none;
+        input{
+           text-align: center;
+       
+        
+        }
+
+        position: absolute;
+    }
+    &__title2{
+        top: 150px;
+        right: 160px;
+        border: 2px solid $whitwecolor;
+        border: none;
+        @include for-size(phone-only){
+            margin-top: -90px;
+                }
+        input{
+           text-align: center;
+            
+        }
+
+        position: absolute;
+    }
+    &__title3{
+        top: 250px;
+        @include for-size(phone-only){
+            margin-top: -80px;
+            width: 150px;
+                }
+        
+        border: 2px solid $whitwecolor;
+        border: none;
+        input{
+           text-align: left;
+           min-height: 25vh;
+           min-width: 70vh;
+           margin-top: -40px;
+           margin-left: 870px;
+            
+        }
+
+        position: absolute;
+    }
+    &__message{
+       position: relative;
+       margin-top: 50px;
+     
+       h2{
+        position: absolute;
+        top: 30px;
+        left: 190px;
+        color: $whitwecolor;
+        font-size: 40px;
+        font-weight: 700;
+        @include for-size(phone-only){
+            font-size: 30px;
+              }
+       }
+    }
+}
+.txt{
+    color: $whitwecolor;
+    margin-left: 190px;
+    margin-top: 150px;
+}

@@ -1,0 +1,63 @@
+@import "/src/Utils/style/variables";
+.Blog{
+    &__back{
+     width: 150px;
+    }
+    &__item{
+        margin-top: -730px;
+        h4{
+            color: $graycolor;
+            font-size: 15px;
+            margin-left: 12px;
+           }
+            h3{
+                margin-top: -50px;
+                margin-left: 90px;
+                font-size: 15px;
+                
+            }
+    }
+  
+    &__btn{
+        margin-left: 1200px;
+        margin-top: -30px;
+        button{
+            width: 150px;
+            border: none;
+            background-color: $blackcolor;
+            color: $whitwecolor;
+        }
+    }
+    &__meat{
+        margin-top: -120px;
+    }
+    &__meat2{
+        margin-top: 60px;
+    }
+    &__meat3{
+        margin-top: 60px;
+    }
+    &__social{
+    
+        margin-left: 500px;
+      display: flex;
+      gap: 1rem;
+    }
+    &__title{
+        h2{
+            margin-left: 500px;
+        }
+        p{
+            margin-left: 500px;
+            width: 100%;
+            font-size: 30px;
+            font-weight: 300;
+        }
+    }
+}
+.pic{
+    width: 1000px;
+    margin-left: 500px;
+    
+
+}

@@ -1,0 +1,82 @@
+
+@import "/src/Utils/style/mediaQuery";
+@import "/src/Utils/style/variables";
+.FeatureProduct{
+    @include for-size(phone-only){
+        display: none;
+          
+         } 
+    margin-left: 50px;
+        h2{
+
+            text-align: center;
+            margin-top: 50px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 500;
+        }
+        &__background 
+        
+        img{
+           width: 100%;
+            position: relative;
+        
+
+        }
+        &__txt{
+         
+            h2{
+                color: $whitwecolor;
+                position: absolute;
+                top: 1880px;
+                left: 500px;
+                font-size: 40px;
+                font-weight: 600;            }
+        }
+       
+        h4{
+            color: $whitwecolor;
+            position: absolute;
+            top: 1980px;
+            left: 580px;
+            font-size: 18px;
+            font-weight: 300;  
+        }
+         .btn{
+            margin-top: -440px;
+            margin-left: 650px;
+            border: 2px solid $whitwecolor;
+            background: $whitwecolor;
+            border-radius: 20px;
+            color: $blackcolor;
+            font-weight: 700;
+            position: relative;
+         }
+
+
+        &__icon{
+            text-align: center;
+        }
+        &__icon:before{
+            content: "";
+            display: block;
+            width: 120px;
+            height: 2px;
+            background: $blackcolor;
+            position: absolute;
+            top: 1440px;
+            left: 600px;
+         }
+         &__icon:after{
+            content: "";
+            display: block;
+            width: 120px;
+            height: 2px;
+            background: $blackcolor;
+            position: absolute;
+            top: 1440px;
+            right: 570px;
+         }
+        
+    
+}

@@ -1,0 +1,179 @@
+@import "/src/Utils/style/mediaQuery";
+@import "/src/Utils/style/variables";
+.BannerCarousel{
+    @include for-size(phone-only){
+        width: 1200px;
+        
+    } 
+    
+    &__container
+
+     img
+    {
+        width: 70%; 
+        @include for-size(phone-only){
+            width: 1500px;
+            height: 750px;
+            
+        } 
+      
+    }
+    &__back{
+        @include for-size(phone-only){
+            width: 5000px;
+            height: 1500%;
+            
+        } 
+    }
+ 
+    &__fresh{
+        position: absolute;
+        top: 150px;
+        margin-left: 828px;
+        width: 250px;
+        
+        h1{
+            font-size: 36px;
+            font-weight: 600;
+            @include for-size(phone-only){
+               display: none;
+            } 
+        
+            
+        }
+     
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 20px;
+            @include for-size(phone-only){
+             display: none;
+            } 
+        }
+        button{
+            background: $redcolor;
+            width: 160px;
+            border: none;
+            color: $whitwecolor;;
+            font-size: 20px;
+            font-weight: 500;
+            height: 40px;
+            border-radius: 5px;
+            @include for-size(phone-only){
+                display: none;
+               } 
+        }
+  
+
+    }
+    &__leg img{
+        position: relative;
+        margin-top: -170px;
+        width: 80%;
+        margin-left: 170px;
+        @include for-size(phone-only){
+            margin-top: -90px;
+        } 
+    
+     
+    }
+
+    
+        &__chicken1 img{
+    position: absolute;
+    margin-top: -195px;
+    margin-left: 267px;
+    @include for-size(phone-only){
+        width: 50px;
+        height: 50px;
+margin-left: 230px;
+       } 
+ 
+   
+        }
+        &__chicken1 p{
+            position: absolute;
+            margin-top: -146px;
+            margin-left: 228px;
+            font-size: 25px;
+            font-weight: 700;
+            @include for-size(phone-only){
+                font-size: 22px;
+                
+               } 
+        
+         
+        }
+        &__chicken2 img{
+            position: absolute;
+            margin-top: -195px;
+            margin-left: 567px;
+            @include for-size(phone-only){
+                width: 50px;
+                height: 50px;
+        margin-left: 520px;
+               } 
+           
+                }
+                &__chicken2 p{
+                    position: absolute;
+                    margin-top: -146px;
+                    margin-left: 500px;
+                    font-size: 25px;
+                    font-weight: 700;
+                    @include for-size(phone-only){
+                        font-size: 22px;
+                        
+                       } 
+                
+                 
+                }
+                &__chicken3 img{
+                    position: absolute;
+                    margin-top: -195px;
+                    margin-left: 867px;
+                    @include for-size(phone-only){
+                        width: 50px;
+                        height: 50px;
+                margin-left: 820px;
+                       } 
+                   
+                        }
+                        &__chicken3 p{
+                            position: absolute;
+                            margin-top: -146px;
+                            margin-left: 800px;
+                            font-size: 25px;
+                            font-weight: 700;
+                            @include for-size(phone-only){
+                                font-size: 22px;
+                                
+                               } 
+                         
+                        }
+                        &__chicken4 img{
+                            position: absolute;
+                            margin-top: -195px;
+                            margin-left: 1167px;
+                            @include for-size(phone-only){
+                                width: 50px;
+                                height: 50px;
+                        margin-left: 1020px;
+                               } 
+                           
+                                }
+                                &__chicken4 p{
+                                    position: absolute;
+                                    margin-top: -146px;
+                                    margin-left: 1120px;
+                                    font-size: 25px;
+                                    font-weight: 700;
+                                    @include for-size(phone-only){
+                                        font-size: 22px;
+                                        margin-left: 1015px;
+                                       } 
+                                 
+                                }
+                         
+       
+    }

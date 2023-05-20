@@ -1,0 +1,20 @@
+@import "/src/Utils/style/mediaQuery";
+@import "/src/Utils/style/variables";
+.ProductCircle3{
+  
+    background-color:$greencolor;
+    border-radius: 50%;
+    padding: 25px;
+        width: 180px;
+        height: 180px;
+        @include for-size(phone-only){
+            display: none;
+              
+             } 
+        img{
+            width: 190px;
+            margin-top: 50px;
+            
+        }
+
+}

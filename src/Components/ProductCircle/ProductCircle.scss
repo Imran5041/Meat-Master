@@ -1,0 +1,41 @@
+@import "/src/Utils/style/mediaQuery";
+@import "/src/Utils/style/variables";
+.ProductCircle{
+    @include for-size(phone-only){
+        margin-left: 10px;
+        
+       } 
+    
+    &__slider{
+        display: flex;
+    }
+    
+    &__picture1{
+        background-color:$pinkcolor;
+        @include for-size(phone-only){
+            display: none;
+    
+            
+           } 
+        border-radius: 50%;
+        padding: 25px;
+            width: 180px;
+            height: 180px;
+      
+        
+        margin: 10px;
+        img{
+            width: 190px;
+            margin-top: 30px;
+            @include for-size(phone-only){
+                margin-left: 10px;
+                
+               } 
+        }
+    }
+       
+      
+       
+       
+      
+}

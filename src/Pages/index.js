@@ -1,0 +1,1 @@
+export {default as Homepage} from "../Pages/HomePage";

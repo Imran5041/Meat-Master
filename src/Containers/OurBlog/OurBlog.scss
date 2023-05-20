@@ -1,0 +1,135 @@
+// @import "../../Style/mediaQuery";
+// @import "../../Style/Variables";
+@import "/src//Utils//style/mediaQuery";
+@import "/src/Utils/style/variables";
+.OurBlog{
+  @include for-size(phone-only){
+    width: 1520px;
+    overflow-x: hidden;
+}
+  a{
+    color: $blackcolor;
+    text-decoration: none;
+  }
+   
+    width: 100%;
+    margin-left: 130px;
+    margin: auto;
+        
+    h2{
+        text-align: center;
+        margin-top: 30px;
+        @include for-size(phone-only){
+     
+     font-size: 45px;
+          
+      }
+     
+       
+    }
+    &__damru{
+      img{
+   margin-left: 720px;
+      
+      }
+    }
+
+    &__card{
+      border: 1px solid $blackcolor;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+      margin: 10px;
+      margin-top: 20px;
+    }
+    &__cardTop img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    
+ 
+    }
+    &__cardTop h1{
+     font-size: 20px;
+     text-align: center;
+     font-weight: 400;
+     margin-top: 10px;
+     @include for-size(phone-only){
+      font-size: 25px;
+  }
+  
+    }
+    &__cardBottom h3{
+      font-size: 20px;
+      text-align: center;
+      @include for-size(phone-only){
+        font-size: 25px;
+    }
+    
+    }
+    &__cardBottom p{
+      font-size: 17px;
+      text-align: center;
+      font-weight: 400;
+      margin-top: 20px;
+      @include for-size(phone-only){
+        font-size: 25px;
+    }
+   
+    }
+    &__blackRectangle{
+      display: flex;
+      background-color: $blackcolor;
+      margin-top: 40px;
+    }
+    &__join h1{
+      color:$whitwecolor;
+      font-size: 40px;
+      margin-left: 150px;
+      margin-top: 60px;
+ 
+     
+
+    }
+    &__join p{
+      color: $whitwecolor;
+      font-size: 20px;
+      margin-left: 150px ;
+    }
+    &__mobile {
+      @include for-size(phone-only){
+        width: 1520px;
+    }
+      img{
+      margin-left: 10px;
+      @include for-size(phone-only){
+        margin-left: 320px;
+    }
+  
+  
+    }
+  }
+    button{
+      width: 120px;
+      height: 50px;
+      border: 2px solid $whitwecolor;
+      background: $blackcolor;
+      color:$whitwecolor;
+      margin-left: 150px;
+      margin-right: -132px;
+    }
+    &__line img{
+      width: 60px;
+      margin-left: 350px;
+    }
+   
+ 
+    
+}
+
+
+
+
+
+
+

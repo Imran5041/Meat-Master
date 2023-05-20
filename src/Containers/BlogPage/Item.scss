@@ -1,0 +1,43 @@
+@import "/src/Utils/style/variables";
+.Item{
+    border-radius: 10px;
+    
+    width: 350px;
+    &__categories{
+    background-color: $pinkcolor;
+    border-radius: 30px;
+
+       h2{
+        margin-left: 20px;
+       }
+        p{
+            margin-left: 20px;
+        }
+    }
+    &__post{
+        background-color: $pinkcolor;
+        border-radius: 30px;
+        img{
+            width: 90px;
+            height: 90px;
+        }
+        h1{
+            margin-top: -90px;
+            margin-left: 120px;
+            font-size: 25px;
+            font-weight: 300;
+
+        }
+        p{
+            margin-left: 120px;
+        }
+    }
+    &__archives{
+        background-color: $whitwecolor;
+        border-radius: 30px;
+        p{
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+}

@@ -1,0 +1,95 @@
+@import "/src//Utils//style/mediaQuery";
+@import "/src/Utils/style/variables";
+.Product3{
+
+    display: flex;
+    
+ 
+     &__imageBox{
+       width: 100%;
+       height: 30vh;
+       img{
+
+           @include for-size(phone-only){
+        width: 243px;
+        height: 100px;
+        }
+       }
+       
+     }
+
+    
+     &__contenBox{
+         display: block;
+         h3{
+             font-size: 20px;
+             text-align: left;
+             font-weight: 700;
+             margin-left: 50px;
+             @include for-size(phone-only){
+                font-size: 25px;
+                margin-top: 15px;
+            }
+         }
+         span{
+            margin-left: 70px;
+            @include for-size(phone-only){
+               display: none;
+            }
+         }
+       
+         p{
+             font-size: 27px;
+             
+             font-weight: 400;
+             @include for-size(phone-only){
+                font-size: 35px;
+                margin-top: 15px;
+            }
+         }
+         
+     
+     }
+
+     &__fiveStar{
+         color: $browncolor;
+         @include for-size(phone-only){
+            font-size: 25px;
+            margin-top: 15px;
+        }
+    
+         span{
+             color: $blackcolor;
+             font-size: 15px;
+             font-weight: 400;
+             @include for-size(phone-only){
+                font-size: 25px;
+                margin-top: 15px;
+            }
+         }
+     }
+     &__btn{
+        @include for-size(phone-only){
+            font-size: 25px;
+            margin-top: 15px;
+            
+        }
+         
+         button{
+             border: none;
+             background: $pinkcolor;
+             font-size: 16px;
+             font-weight: 700;
+             margin-top: 20px;
+             @include for-size(phone-only){
+                width: 150px;
+                height: 10px;
+                font-size: 20px;
+            }
+         }
+     }
+
+ }
+ .blankStarss{
+     color:$blackcolor;
+ }

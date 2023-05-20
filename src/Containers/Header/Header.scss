@@ -1,0 +1,80 @@
+@import "/src//Utils//style/mediaQuery";
+@import "/src/Utils/style/variables";
+.Header{
+    display: flex;
+    @include for-size(phone-only){
+        width: 100%;
+    } 
+    &__logo{
+        margin-left: 10px;
+        @include for-size(phone-only){
+            width: 290px;
+        } 
+    }
+    
+    &__location{
+        color: $browncolor;
+        margin-top: 16px;
+      
+        
+    }
+    &__dropDown{
+        
+    display: block;
+    margin-left: -20px;
+        span{
+            
+    
+            margin-left: 30px;
+            font-size: 15px;
+           
+        }
+    }
+    &__menu{
+        margin-top: 10px;
+    }
+    &__search{
+        margin-top: 15px;
+        input{
+            width: 580px;
+            background:$whitwecolor ; 
+            height: 38px;
+        border: none;    
+    @include for-size(phone-only){
+        
+        width: 340px;
+    }  
+ }
+      
+    }
+    &__btn{
+        margin-top: 15px;
+    button{
+        background:$browncolor;
+        height: 38px;
+        width: 120px;
+        border: none;
+        color: $whitwecolor;
+        font-weight: 700;
+        font-size: 19px;
+        border-radius: 5px;
+      
+    }
+        
+    }
+}
+.icons{
+    color:$browncolor;
+    margin-top: 21px;
+    margin-left: 10px;
+    @include for-size(phone-only){
+        margin-left: 10px;
+    } 
+}
+span p{
+    margin-left: 47px;
+margin-top: -35px;
+font-size: 15px;
+font-weight: 400;
+
+}
